@@ -24,7 +24,7 @@ How the code works
 
 	|actId|Activity|SubjectId|tBodyAcc-mean()-X|...|
 	|-----|--------|---------|-----------------|---|
-	|1    |WALKING |12       {0.2160924        |...|
+	|1    |WALKING |12       |0.2160924        |...|
 
 7.   Now both x tables are complete so we can join them with rbind. 
 8.  Because only features labeled *mean* and *standard deviation* are wanted in the final data, the script 
