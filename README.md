@@ -35,9 +35,12 @@ How the code works
 10.  To rename the features with descriptive names, the script exports the current feature names into an Excel spreadsheet where the user adds another column with their own names. Then reimport it and the script renames the columns in *dataset*. [See codebook for naming system]
 11.  Average values grouped by Subject and Activity are calculated using the *aggregate* function which outputs the results to *SummaryData* which looks like this
 
-	| Group.1 | Group.2 | Activity | SubjectId | tBodyAcc-mean()-X | ... |
+	| Group.1 | Group.2 | Activity | SubjectId | tBodyAccXsd       | ... |
 	| ------- | ------- | -------- | --------- | ----------------- | --- |
 	| LAYING  | 1       | NA       |         1 | -0.928056469      | ... |
 
 12.  Finally we remove columns 2,3 and rename the activity text feature and export to csv
 
+	| Activity| SubjectId | tBodyAccXsd       | ... |
+	| ------- | --------- | ----------------- | --- |
+	| LAYING  |         1 | -0.928056469      | ... |
