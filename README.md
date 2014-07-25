@@ -15,13 +15,17 @@ How the code works
 5.   The "y tables" list the activity associated with each set of features in the x tables. Read the
      y tables, name the feature actId and append it to the relevant x table.
 6.   Now we have a x table that looks something like this:
+
 	|actId|SubjectId|tBodyAcc-mean()-X|...|
 	|-----|---------|-----------------|---|
 	|1    |12       {0.2160924        |...|
+
    We will merge the activity_labels data on the actId key to add text activity labels and we get:
+
 	|actId|Activity|SubjectId|tBodyAcc-mean()-X|...|
 	|-----|--------|---------|-----------------|---|
 	|1    |WALKING |12       {0.2160924        |...|
+
 7.   Now both x tables are complete so we can join them with rbind. 
 8.  Because only features labeled *mean* and *standard deviation* are wanted in the final data, the script 
    uses the labels from features.txt and searches it with a regular expression for any labels including *mean* 
