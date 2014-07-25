@@ -5,6 +5,9 @@ Submission for Coursera Getting and Cleaning Data class
 
 See data file submitted [AverageBySubjectActivity.txt](https://github.com/walterlsb/Activity-Recognition/blob/master/AverageBySubjectActivity.txt)
 
+Background
+==========
+The data is available from [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) and is built from 30 subjects walking, walking up stairs, walking down stairs, sitting, standing and laying down. While they performed the activities, Samsung Galaxy SII cellphone recorded movement data. This submission combines both training and testing data from the repository, pickes out mean and standard deviation measurements and summarizes them by subject and activity.
 
 How the code works
 ====================
