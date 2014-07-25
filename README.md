@@ -3,7 +3,7 @@ Activity-Recognition
 
 Submission for Coursera Getting and Cleaning Data class
 
-See data file submitted [AverageBySubjectActivity.csv](https://github.com/walterlsb/Activity-Recognition/blob/master/AverageBySubjectActivity.csv)
+See data file submitted [AverageBySubjectActivity.txt](https://github.com/walterlsb/Activity-Recognition/blob/master/AverageBySubjectActivity.txt)
 
 
 How the code works
