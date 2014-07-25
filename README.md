@@ -32,7 +32,7 @@ How the code works
    or *std*. These are stored in *vars* which is coerced into a character vector and feature labels *Activity*
     and *SubjectID* are appended to it.
 9.  The columns labeled in *vars* are selected into data frame *dataset*. NB. This changes the order of the columns but does keep the column name with the correct data.
-10.  To rename the features with descriptive names, the script exports the current feature names into an Excel spreadsheet where the user adds another column with their own names. Then reimport it and the script renames the columns in *dataset*. [See codebook for naming system]
+10.  To rename the features with descriptive names, the script exports the current feature names into an Excel spreadsheet where the user adds another column with their own names. Then reimport it and the script renames the columns in *dataset*. [See codebook for naming system](https://github.com/walterlsb/Activity-Recognition/blob/master/codebook.md)
 11.  Average values grouped by Subject and Activity are calculated using the *aggregate* function which outputs the results to *SummaryData* which looks like this. (You can see that it has been reordered in the aggregation)
 
 	| Group.1 | Group.2 | Activity | SubjectId | tBodyAccXsd       | ... |

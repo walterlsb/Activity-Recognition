@@ -3,14 +3,14 @@ Codebook
 
 In an effort to make the data more easy to read I changed the existing column names to a camel case type of name and made them more structured.
 
-Each starts with a **t** for *time* or an **f** for *frequency*.
-Next, each specifies whether the measurement relates to *body* or *gravity*
-Next, each specifies whether the measurement is an *Acceleration*, or *Gyro*
-Next, if the measurement relates to a *Jerk*, *Mag*, *Freq* or a combination
-If there is a direction, this is capitalized next as *X*, *Y*, *Z*
-Finally if the measurement is a *mean* or *standard deviation*
+1. Each starts with a **t** for *time* or an **f** for *frequency*.
+2. Next, each specifies whether the measurement relates to *body* or *gravity*
+3. Next, each specifies whether the measurement is an *Acceleration*, or *Gyro*
+4. Next, if the measurement relates to a *Jerk*, *Mag*, *Freq* or a combination
+5. If there is a direction, this is capitalized next as *X*, *Y*, *Z*
+6.Finally if the measurement is a *mean* or *standard deviation*
 
-
+Finally, for complete clarity, see my column names mapped to the originals below.
 
 
 Mapping my column names to original column names
