@@ -18,7 +18,7 @@ How the code works
 
 	|actId|SubjectId|tBodyAcc-mean()-X|...|
 	|-----|---------|-----------------|---|
-	|1    |12       {0.2160924        |...|
+	|1    |12       |0.2160924        |...|
 
    We will merge the activity_labels data on the actId key to add text activity labels and we get:
 
